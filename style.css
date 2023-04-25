@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+.top-header{
+    display:flex;
+    margin:0;
+    padding:0.5rem;
+    height:55px;
+    background-color: #F55A5A;
+    box-shadow: 0 2px 3px lightgray;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    font-size:14px;
+    align-items:center;
+    justify-content: center;
+    gap:7px;
+}
+
+.bigger-container{
+    /* border:3px solid green; */
+    max-width:500px;
+    display:block;
+    margin:40px auto;
+}
+
+.card-container, .loc-info{
+    display:flex;
+    margin:1rem;
+    align-items: center;
+}
+
+.card-container{
+    box-shadow: 0 2px 4px lightcoral;
+    padding:15px;
+    border-radius:5px;
+}
+
+.destination-pic{
+    height:168px;
+    width:125px;
+    object-fit: cover;
+}
+
+.travel-info{
+    height:100%;
+    max-width:350px;
+    margin-left:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+}
+
+.travel-info p{
+    font-size:0.625rem; 
+}
+
+.loc-info{
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:baseline;
+    gap:6px;
+}
+
+.location-airbnb{
+    display:flex;
+    gap:10px;
+    align-items: baseline;
+    position:relative;
+}
+
+.location-airbnb a{
+    position:absolute;
+    top:14px;
+    left: 135px;
+    cursor:pointer;
+    margin-left:10px;
+}
+
+
+/* .fa-brands fa-airbnb{
+    font-size:20px;
+    
+} */
+
+.location-country,
+.loc-google,
+.dates,
+.loc-description{
+    font-size:0.625rem;
+}
+
+.loc-google{
+    color:#918E9B;
+}
+
+.location,
+.dates{
+    color: #2B283A;
+}
+
+.location{
+    font-size:1.56rem;
+    margin:0 0 10px 0;
+    
+}
+
+.dates{
+    font-weight: bold;
+}
+
